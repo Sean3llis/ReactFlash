@@ -1,0 +1,63 @@
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.4.4-rc1
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+.button {
+  background-color: #3858ce; }
+
+.text-white {
+  color: #efefef; }
+
+.flashcard {
+  position: relative;
+  background-color: #233b75;
+  padding: 1em;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.14);
+  margin-bottom: 1em; }
+  .flashcard__clue, .flashcard__answer {
+    color: #efefef; }
+  .flashcard__gloss {
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%; }
+
+.flashform input[type='text'] {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  border-bottom: 1px solid white;
+  color: white;
+  padding: 0px; }
+
+nav {
+  background-color: #182c49;
+  color: #efefef;
+  position: fixed;
+  bottom: 0px;
+  height: 72px;
+  width: 100%; }
+
+body {
+  background-color: #233b75; }
+
+#reactflash {
+  padding-bottom: 72px; }
+
+html, body {
+  height: 100%; }
+
+footer {
+  height: 72px;
+  width: 100%;
+  bottom: 0;
+  background-color: #111f35; }
+
+.container {
+  padding: 1em;
+  max-width: 1000px;
+  margin: 0 auto; }

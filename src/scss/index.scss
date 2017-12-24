@@ -1,0 +1,27 @@
+@import 'foundation';
+@import 'variables';
+@import 'flashcard';
+@import 'nav';
+
+body {
+  background-color: $prime-2;
+}
+
+#reactflash {
+  padding-bottom: $nav-height;
+}
+
+html, body { height: 100%; }
+
+footer {
+  height: 72px;
+  width: 100%;
+  bottom: 0;
+  background-color: $dark;
+}
+
+.container {
+  padding: 1em;
+  max-width: 1000px;
+  margin: 0 auto;
+}

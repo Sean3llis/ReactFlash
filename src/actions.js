@@ -1,0 +1,5 @@
+export const CURRENT_UPDATE = 'CURRENT_UPDATE';
+export const FLASHCARD_CREATE = 'FLASHCARD_CREATE';
+
+export const AUTH_LOGIN = 'AUTH_LOGIN';
+export const AUTH_LOGOUT = 'AUTH_LOGOUT';

@@ -1,0 +1,29 @@
+.flashcard {
+  position: relative;
+  background-color: $prime-2;
+  padding: 1em;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.14);
+  margin-bottom: 1em;
+  &__clue, &__answer {
+    color: $light;
+  }
+  &__gloss {
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+}
+
+.flashform {
+  input[type='text'] {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 0px;
+  }
+}
