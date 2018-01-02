@@ -2,7 +2,7 @@ import React from 'react';
 
 export default props => {
   return (
-    <div className="flashcard__gloss">
+    <div>
       <svg version="1.1" id="Layer_1" x="0px" y="0px"
       	 viewBox="0 0 345.9 111">
       <title>gloss</title>
@@ -14,7 +14,6 @@ export default props => {
       		<polygon style={{ opacity: 0.15, fill: 'url(#SVGID_1_)'}} points="345.9,111 0,0 345.9,0 		"/>
       	</g>
       </svg>
-
     </div>
   );
 }
