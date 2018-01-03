@@ -13,11 +13,12 @@ export const authenticateUser = user => {
 
 export const deauthenticateUser = () => {
   return {
-    type: ACT.AUTH_LOGIN
+    type: ACT.AUTH_LOGOUT
   }
 }
 
 export default function(state = initialState, action) {
+  console.log('action ~~>', action);
   switch (action.type) {
     case ACT.AUTH_LOGIN:
       return { ...state, loggedIn: true, user: action.user }
